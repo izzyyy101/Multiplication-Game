@@ -18,7 +18,7 @@ document.getElementById("startreset").onclick = function() {
     document.getElementById("scorevalue").innerHTML = score;
     //show count
     show("timeremaining");
-    timeremaining = 60;
+    timeremaining = 30;
 
     document.getElementById("timeremainingvalue").innerHTML = timeremaining;
 
